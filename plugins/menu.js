@@ -259,119 +259,119 @@ _____•••••••••
                                     "description": "Memberikan Semua Fitur Bot",
                                     "rowId": ".? all",
                                 }, { 
-                                    "title": "|🕋| Islam",
+                                    "title": "|🕋|─────「1」",
                                     "description": "Menu Tentang Islam",
                                     "rowId": ".? quran"
                                 }, {
-                                	"title": "|⛪| Cristian",
+                                	"title": "|⛪|─────「2」",
                                     "description": "Menu Tentang Kristen",
                                     "rowId": ".? cristian"
                                 }, {
-                                    "title": "|🏫| Edukasi",
+                                    "title": "|🏫|─────「3」",
                                     "description": "Menu Edukasi",
                                     "rowId": ".? edukasi"
                                 }, { 
-                                    "title": "|📰| News",
+                                    "title": "|📰|─────「4」",
                                     "description": "Menu Berita",
                                     "rowId": ".? News"
                                 }, { 
-                                    "title": "|🎮| Game",
+                                    "title": "|🎮|─────「5」",
                                     "description": "Menu Game",
                                     "rowId": ".? game"
                                 }, { 
-                                    "title": "|🗺️| Epic Rpg",
+                                    "title": "|🗺️|─────「6」",
                                     "description": "Menu Game RPG",
                                     "rowId": ".? rpg"
                                 }, { 
-                                    "title": "|📈| XP",
+                                    "title": "|📈|─────「7」",
                                     "description": "XP Dan Level",
                                     "rowId": ".? xp"
                                 }, { 
-                                    "title": "|🔞| NSFW",
+                                    "title": "|🔞|─────「8」",
                                     "description": "Astarfirullah,Tobat Banh",
                                     "rowId": ".? nsfw"
                                 }, { 
-                                    "title": "|🖼️| Random Image",
+                                    "title": "|🖼️|─────「9」",
                                     "description": "Menu Foto Random",
                                     "rowId": ".? image"
                                 }, { 
-                                    "title": "|🎇| Stiker",
+                                    "title": "|🎇|─────「10」",
                                     "description": "Menu Buat Stiker",
                                     "rowId": ".? stiker"
                                 }, { 
-                                    "title": "|🐚| Kerang Ajaib",
+                                    "title": "|🐚|─────「11」",
                                     "description": "Menurut Kerang ajaib....",
                                     "rowId": ".? kerangajaib"
                                 }, { 
-                                    "title": "|📑| Quotes",
+                                    "title": "|📑|─────「12」",
                                     "description": "Menu Quotes",
                                     "rowId": ".? quotes"
                                 }, { 
-                                    "title": "|🏛️| Admin",
+                                    "title": "|🏛️|─────「13」",
                                     "description": "Menu Admin Group",
                                     "rowId": ".? admin"
                                 }, { 
-                                    "title": "|🏢| Grup",
+                                    "title": "|🏢|─────「14」",
                                     "description": "Menu Group",
                                     "rowId": ".? grup"
                                 }, { 
-                                    "title": "|🔝| Premium",
+                                    "title": "|🔝|─────「15」",
                                     "description": "Menu Untuk Premium",
                                     "rowId": ".? premium"
                                 }, { 
-                                    "title": "|🖥️| Internet",
+                                    "title": "|🖥️|─────「16」",
                                     "description": "Cari Sesuatu Di Bot",
                                     "rowId": ".? internet"
                                 }, { 
-                                    "title": "|🥷| Anonymous",
+                                    "title": "|🥷|─────「17」",
                                     "description": "Mainkan Anonymous Chat",
                                     "rowId": ".? anonymous"
                                 }, { 
-                                    "title": "|✒️| Nulis & Logo",
+                                    "title": "|✒️|─────「18」",
                                     "description": "Menu Nulis & Logo",
                                     "rowId": ".? nulis"
                                 }, { 
-                                    "title": "|📺| Downloader",
+                                    "title": "|📺|─────「19」",
                                     "description": "Download Sesuatu Di Bot",
                                     "rowId": ".? downloader"
                                 }, { 
-                                    "title": "|🔧| Tools",
+                                    "title": "|🔧|─────「20」",
                                     "description": "Tools Yang Bisa di Gunakan Di Bot",
                                     "rowId": ".? tools"
                                 }, { 
-                                    "title": "|🎇| Fun",
+                                    "title": "|🎇|─────「21」",
                                     "description": "Menu Ceria",
                                     "rowId": ".? fun"
                                 }, { 
-                                    "title": "|📂| Database",
+                                    "title": "|📂|─────「22」",
                                     "description": "Simpan Sesuatu Di Bot",
                                     "rowId": ".? database"
                                 }, { 
-                                    "title": "|📝| Vote & Absen",
+                                    "title": "|📝|─────「23」",
                                     "description": "Menu Vote & Absen",
                                     "rowId": ".? vote"
                                 }, { 
-                                    "title": "|🎙️| Pengubah Suara",
+                                    "title": "|🎙️|─────「24」",
                                     "description": "Ubah Suaramu",
                                     "rowId": ".? audio"
                                 }, { 
-                                    "title": "|🤖| Jadi Bot",
+                                    "title": "|🤖|─────「25」",
                                     "description": "Jadi Bot",
                                     "rowId": ".? jadibot"
                                 }, { 
-                                    "title": "|⛩️| Anime",
+                                    "title": "|⛩️|─────「26」",
                                     "description": "Cari Anime Di Bot",
                                     "rowId": ".? anime"
                                 }, { 
-                                    "title": "|ℹ️| Info",
+                                    "title": "|ℹ️|─────「27」",
                                     "description": "Info Tentang Bot",
                                     "rowId": ".? info"
                                 }, { 
-                                    "title": "|─| Tanpa Kategori",
+                                    "title": "|─|─────「28」",
                                     "description": "",
                                     "rowId": ".? tanpakategori"
                                 }, { 
-                                    "title": "|👩‍⚖️| Owner",
+                                    "title": "|👩‍⚖️|─────「29」",
                                     "description": "Menu Khusu Owner",
                                     "rowId": ".? owner"
                                 }],
