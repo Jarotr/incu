@@ -1,48 +1,20 @@
-const { MessageType } = require('@adiwajshing/baileys')
-const fs = require('fs')
+//Jangan Di Hapus Tapi kalo Di tambah Boleh
+
 let fetch = require('node-fetch')
-let handler = async (m, { conn }) => {
-
-let str = `››╭─〘 *Donasi* 〙
-╭╡
-│┝‷✧ *Pulsa:* 085828764046
-│┝‷✧ *Dana:* 085828764046
-│┝‷✧ *Gopay:* 085828764046
-│╰───···─────
-│⁺◛˖ Ingin Donasi? Chat nomor dibawah
-╰──────────···───╮`
-let name = await conn.getName(m.sender)
-
-let fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: '16504228206@s.whatsapp.net' } : {}) }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
-
-  sumberImg = await (await fetch(fla + 'donasi')).buffer()
-  image = (await conn.prepareMessage('6285828764046@s.whatsapp.net', sumberImg, MessageType.image, { thumbnail: Buffer.alloc(0) })).message.imageMessage
-  res = await conn.prepareMessageFromContent(m.chat, {
-    "productMessage": {
-      "product": {
-        "productImage": image,
-        "productId": "4938174216214248",
-        "title": "DONASI",
-        "description": '\n' + wm + '\n' + str,
-        "retailerId": "Thanks For Donate !",
-        "url": "▌│█║▌║▌║║▌║▌║█│▌",
-        "descriptionCount": "999999999",
-        "productImageCount": "1",
-      },
-      "businessOwnerJid": "6285828764046@s.whatsapp.net",
-      "contextInfo": {
-        "forwardingScore": 9999,
-        "isForwarded": false
-      }
-    }
-  },
-    { quoted: fkon })
-  conn.relayWAMessage(res)
-}
+let handler = async (m, { conn }) => await conn.sendButtonLoc(m.chat, await (await fetch(thumbfoto)).buffer(), `
+*Allo kak/bang bantu donasi yuk supaya bot on 24 jam👋*
+╔═══════════════════
+║ _*DONASI UNTUK ZIFABOTZ*_ 
+╠═══════════════════
+║╭──❉ 〔 *𝗗𝗢𝗡𝗔𝗦𝗜* 〕 ❉──────
+║│➸ *PULSA* : 085828764046
+║│➸ *DANA*: 085838764046
+║│➸ *GOPAY*: 085828764046
+║╰──────────────────
+╰═════by.Rozi
+`.trim(), watermark, 'MENU BOT', '.menu', m)
 handler.help = ['donasi']
 handler.tags = ['info']
-handler.command = /^dona(si|te)$/
+handler.command = /^dona(te|si)$/i
 
 module.exports = handler
-
-let wm = global.botwm
