@@ -231,11 +231,6 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ║│➸*${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
 ╰─────────❉
 _____••••••••• 
-'''STORE ZIFABOTZ'''
-
-_SEWA BOT_ https://wa.me/p/4873685702669154/6285828764046
-_JASA RUN_ https://wa.me/p/7401393219903245/6285828764046
-
 (_𝙱𝚎𝚋𝚎𝚛𝚊𝚙𝚊 𝚋𝚞𝚝𝚝𝚘𝚗 𝚊𝚍𝚊 𝚢𝚐 𝚐𝚊𝚔 𝚋𝚎𝚛𝚏𝚞𝚗𝚐𝚜𝚒_)
 
 ▌│█║▌║▌║║▌║▌║█│▌ `.trim(),
