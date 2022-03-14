@@ -26,7 +26,7 @@ let handler = async (m, { conn }) => await conn.send2Button(m.chat, `
 ┬
 ╰──────────···
 ${wm}
-`.trim(), 'Harap patuhin peraturan tersebut', '⋮☰ Menu', '.menu', 'Owner', '.nowner', m)
+`.trim(), 'Harap patuhin peraturan tersebut', '⋮☰ Menu', '.menu', 'Owner', '.owner', m)
 
 handler.help = ['rules']
 handler.tags = ['info']
