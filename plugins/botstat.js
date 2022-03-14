@@ -10,15 +10,15 @@ let handler = async (m, { conn }) => {
     m.reply(`
 ╭═══════════════════════
 ║╭──❉ 〔 ⳹ ❋ཻུ۪۪STATUS ZIFABOTZ⳹ ❋ཻུ۪۪ 〕 ❉────── 
-├ Aktif selama ${uptime}
-├ Baterai ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
-├ *${groups.length}* Grup
-├ *${chats.length - groups.length}* Chat Pribadi
-├ *${Object.keys(global.db.data.users).length}* Pengguna
-├ *${totaljadibot.length}* Jadibot
-├ *${conn.blocklist.length}* Terblock
-├ *${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* Chat Terbanned
-├ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
+║│➸ Aktif selama ${uptime}
+║│➸ Baterai ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
+║│➸ *${groups.length}* Grup
+║│➸ *${chats.length - groups.length}* Chat Pribadi
+║│➸ *${Object.keys(global.db.data.users).length}* Pengguna
+║│➸ *${totaljadibot.length}* Jadibot
+║│➸ *${conn.blocklist.length}* Terblock
+║│➸ *${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* Chat Terbanned
+║│➸ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
 └────
 
 ┌─〔 Pengaturan 〕
