@@ -380,11 +380,11 @@ _____•••••••••
                                 "rows": [{
                                     "title": "|👩‍💻| Owner ZIFABOTZ",
                                     "description": "pemilik ZIFABOTZ",
-                                    "rowId": ".owner"
+                                    "rowId": "owner"
                                 }, {
                                     "title": "|🛠|Status bot",
                                     "description": "Status dan informasi bot",
-                                    "rowId": ".botstatus"
+                                    "rowId": "botstatus"
                                 }, {
                                     "title": "|🖨️| Rules zifabotz",
                                     "description": "Mari menaati peraturan demi Kita bersama",
@@ -399,7 +399,7 @@ _____•••••••••
                         ], "contextInfo": 
 						{ "stanzaId": m.key.id,
                         "participant": "0@s.whatsapp.net",
-                        "remoteJid": "6283136505591-1614953337@g.us",
+                        "remoteJid": "623136505591-1614953337@g.us",
                         "quotedMessage": m.message
 						}
                     }
@@ -511,8 +511,8 @@ const readMore = more.repeat(1)
 
 function clockString(ms) {
   let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000)
-  let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
-  let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
+  let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 50
+  let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 50
   return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')
 }
 function ucapan() {
